@@ -2,5 +2,5 @@ services:
   fastapi:
     build: .
     ports:
-      - "80:80"
+      - "80:8998"
     restart: unless-stopped
